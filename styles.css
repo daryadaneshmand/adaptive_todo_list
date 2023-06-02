@@ -1,0 +1,13 @@
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    background-color: #faf3dd;
+    color: #22577a;
+}
+
+h1 {
+    text-align: center;
+    color: #38a3a5;
+}
+
+#todoApp {
+    max-width: 600

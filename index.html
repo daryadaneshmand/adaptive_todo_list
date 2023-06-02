@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+</head>
+<body>
+    <h1>Flexible Task Schedule</h1>
+    <div id="todoApp">
+        <div id="slider-vertical" style="height:200px;"></div>
+        <ul id="todoList"></ul>
+        <input id="todoInput" type="text" placeholder="New task">
+        <input id="timeInput" type="text" placeholder="Duration (in minutes)">
+        <button onclick="addTask()">Add Task</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
